@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>KidCode</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="checkmark-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="welcome-container">
+    <div class="welcome-message">
+      <h1>Welcome to KidCode!</h1>
+      <p>Start your coding journey with our fun and interactive courses.</p>
+    </div>
+    <div class="courses-list">
+      <ion-card *ngFor="let course of courses">
+        <ion-card-header>
+          <ion-card-title>{{ course.title }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{ course.description }}
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <ion-button expand="full" class="trial-button">Start Free Trial</ion-button>
+  </div>
+</ion-content>

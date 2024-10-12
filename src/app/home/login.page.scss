@@ -1,0 +1,88 @@
+/* styles.scss */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #001F3F; /* Color de fondo */
+  color: #020202; /* Color del texto */
+}
+
+/* Estilo para el contenedor principal */
+.flex {
+  margin-top: 4rem; /* Espacio superior ajustado */
+}
+
+/* Estilo para el título */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 25px; /* Aumenta el margen inferior (20px) */
+  color: #000000;
+}
+
+/* Estilo para el icono de flecha hacia atrás */
+.icon-back {
+  color: #000000;
+  font-size:  2rem; /* Tamaño del icono */
+  position: absolute;
+  top: 1rem; /* Ajusta la posición vertical */
+  left: 1rem; /* Ajusta la posición horizontal */
+}
+
+/* Contenedor de la imagen */
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.9rem; /* Espaciado inferior */
+}
+
+/* Estilo de la imagen */
+.image {
+  border-radius: 0.375rem; /* rounded-md */
+  width: 100%;
+  height: auto; /* Mantiene la proporción */
+  max-height: 300px; /* Ajusta según prefieras */
+  object-fit: cover; /* Cubre el área sin distorsionar la imagen */
+}
+
+/* Estilos para los input de usuario y contraseña */
+.input-item {
+  width: 100%;
+  max-width: 480px; /* Aumenta el ancho máximo */
+  padding: 0 1rem; /* Espaciado horizontal */
+  margin-bottom: 1rem; /* Espaciado vertical */
+}
+
+
+
+
+
+/* Enlace de ayuda */
+.link-help {
+  color: #dfd04a;
+  font-size: 1rem; /* Ajustado a rem correcto */
+  text-decoration: underline;
+  margin-bottom: 1.30rem; /* Espaciado inferior */
+  text-align: center; /* Centra el texto */
+}
+
+/* Contenedor de botones */
+
+/* Botón de inicio de sesión */
+.button-log-in {
+
+  color: #000000;
+  border-radius: 9999px; /* rounded-full */
+  font-weight: bold;
+  margin-bottom: 1rem; /* Espaciado inferior */
+  padding: 0 1rem;
+}
+
+/* Botón de inscripción */
+.button-sign-up {
+  color: #000000;
+  border-radius: 9999px; /* rounded-full */
+  font-weight: bold;
+  margin-bottom: 1rem; /* Espaciado inferior */
+  padding: 0 2rem;
+}

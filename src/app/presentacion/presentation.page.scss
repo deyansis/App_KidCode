@@ -1,0 +1,37 @@
+.presentation-content {
+  background: linear-gradient(to bottom, #3A6D8C, #001F3F); /* Gradiente azul */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  color: #050505;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  margin-bottom: 1.5rem;
+}
+
+.presentation-icon {
+  width: 120px;
+  height: 120px;
+}
+
+.button-start {
+  --background: #339cff; /* Color naranja del botón */
+  --color: white;
+  border-radius: 9999px;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+}
